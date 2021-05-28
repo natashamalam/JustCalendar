@@ -1,0 +1,6 @@
+framework module JustCalendar {
+  umbrella header "JustCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

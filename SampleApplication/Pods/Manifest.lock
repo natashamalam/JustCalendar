@@ -1,0 +1,16 @@
+PODS:
+  - JustCalendar (1.0.0.0)
+
+DEPENDENCIES:
+  - JustCalendar
+
+SPEC REPOS:
+  trunk:
+    - JustCalendar
+
+SPEC CHECKSUMS:
+  JustCalendar: 07525c17b1bb2ad824c035dcaf807e18f49053fa
+
+PODFILE CHECKSUM: 1e3a0c7d764cd23c7a973e7d0961b813ed551ab3
+
+COCOAPODS: 1.10.0
