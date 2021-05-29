@@ -34,7 +34,7 @@ What makes it so easy to use is its internal layout constraints. Users can just 
 1. Add a UIView in a UIViewController.
 2. Novigate to the Class inspector and assign JustCalendarView in the class field. 
 3. Next create an outlet for the calendar view aka 'JustCalendarView' which was added to through the storyboard to customize the look or to implement the delegate methods. 
-  
+<pre><code>  
   @IBOutlet weak var calendar: JustCalendarView!{
         didSet{
             calendar.backButtonImage = UIImage(named: "back")
@@ -42,7 +42,7 @@ What makes it so easy to use is its internal layout constraints. Users can just 
             calendar.delegate = self
         }
     }
-    
+<code></pre>    
 ##### Demo:
 ![adding_calendar](https://user-images.githubusercontent.com/8694816/120067426-81d91300-c0b6-11eb-976a-542401df6904.gif)
 
