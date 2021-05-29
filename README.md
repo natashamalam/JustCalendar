@@ -4,8 +4,7 @@ JustCalendar is a user friendly, easy to integrate calendar interface that can b
 What makes it so easy to use is its internal layout constraints. Users can just take a view and assign the "JustCalendarView" class. That's it. 
 
 # Screenshoot
-
-![Simulator Screen Shot - iPhone 12 Pro Max - 2021-05-29 at 20 04 23](https://user-images.githubusercontent.com/8694816/120068311-e007f500-c0ba-11eb-8301-1557658a907a.png)
+![Simulator Screen Shot - iPhone 12 Pro Max - 2021-05-29 at 20 04 23](https://user-images.githubusercontent.com/8694816/120068338-1fcedc80-c0bb-11eb-88e5-e95e37ad3273.png)
 
 # Requirements
  - *iOS 11.0*
