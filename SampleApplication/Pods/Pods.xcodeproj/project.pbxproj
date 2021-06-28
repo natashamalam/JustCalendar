@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F6F6C58CE0BA4F7EC9820DF1E6EA1A3 /* JustMonthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AAC749C703B8F316E7D22E2E888324 /* JustMonthCollectionViewCell.swift */; };
-		334051D2428B890027561C3FBD4B0FC0 /* MonthYearCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931A47CAE98474F206C190AA531A4AD /* MonthYearCombination.swift */; };
-		3553E009D5C58EA8BB06C0FE623350C1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E6B8D046A159109056C6CDE4EC9963 /* Constants.swift */; };
-		3EA61352E4D0884C7A1996836D7A4170 /* JustMonthNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54254CFA3ACE16E26ED95F482BD1F6EB /* JustMonthNavigatorView.swift */; };
+		04327EC2A0D68846E59130137B2DF5BD /* JustCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E80681216F155326B2E326B1AD7109E1 /* JustCalendar-dummy.m */; };
+		187837A96DE08026CCAFE3AB09F4D09B /* CalendarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2145DC0358DF9C58EC74DA02B4B58E6E /* CalendarBuilder.swift */; };
+		2D7996B08A999F6C4A6892EF8143ED14 /* JustMonthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406CBDE06DFD868D90CC8170895C6DC8 /* JustMonthCollectionViewCell.swift */; };
+		3E2CD819367759101F00526E544A45CF /* JustMonthNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8242F9BBB6E7949FD95BEDB334C64F2B /* JustMonthNavigatorView.swift */; };
+		418D4B56376FF7F5FFE7B8AC49BFE7F4 /* CalendarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B5976BFDEC6E9DB282E3FB67CB9AE8 /* CalendarPresenter.swift */; };
 		50577CD20DADB232D63FFBE248F05A25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		62B544374252FD4B50675BE72CB432BE /* CalendarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B580D78B8D3A806ECEA122C3CBD134CE /* CalendarBuilder.swift */; };
-		6C80B4A009A78AB4778D1045DD6F6E1A /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF462C4AD2977D7FDE0DE0BB4062162 /* CalendarDay.swift */; };
+		75437E2B2BD1B9401C665D6F12FBCB42 /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC32E89B27670F2071A25E3BFC3CA5F /* CalendarDay.swift */; };
+		83C28AD787CFE91B80D837542EF6F61E /* MonthYearCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C1E08AF2D02E2D1294DE632EF6E04A /* MonthYearCombination.swift */; };
 		84A0B2BA1DC1AE4E8250C5CEE5C0B766 /* Pods-SampleApplication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D1C332329968AD3F4DD894B7BF52E5 /* Pods-SampleApplication-dummy.m */; };
-		9340EB08589EC97B21D23EE4CAFC7E7A /* JustDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECEF5A5676E7CADA6DE8821B755AACE /* JustDateCollectionViewCell.swift */; };
+		9DEBFB8673A12F97CA2BECA3D30D6FB6 /* JustCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7896D92C6E080C6A4DE94AD6C3865AC /* JustCalendarView.swift */; };
 		9F0E3C7F1C359D21B6BAEF36E73AB18E /* Pods-SampleApplication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C195B83527B417B72132B6A622C208 /* Pods-SampleApplication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADD95854CB0EA9BC6C7FF8DD201C365B /* JustCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA366F4BD547D5A6EEC2A06CC3AC1D51 /* JustCalendarView.swift */; };
-		AE5B84A4BC3075560386E3D8D79F3A9F /* CalendarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0DE68E78D5C59D68338B90E279A3A5 /* CalendarPresenter.swift */; };
-		AF67E545B7EB7D86A576DD5AF7BD8F9A /* JustCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB960632EB068AA8320E4045A350A261 /* JustCalendar-dummy.m */; };
-		C83B3CBE3BBFCC33942F4CADEE46A82F /* JustCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A382D22E225E6A7E2E61D552646216D /* JustCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2E26919A90EC8AB5E8CF6D07B24016F /* NavigatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE0C9E884544FE0F6DAFBE5112DC6D0 /* NavigatorButton.swift */; };
+		C2C988CDE2B3D0DF2380486F9CD10AA8 /* NavigatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F030EB837CA7084222C878A849CF0B /* NavigatorButton.swift */; };
+		C83B3CBE3BBFCC33942F4CADEE46A82F /* JustCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88DC2B4E669BC530039E7CA1D770249A /* JustCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D23A9866932FBE783427174134137CCB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B92FBE6B74C85E1B624AC332F645B4 /* Constants.swift */; };
+		D642DCB63947F38CBD17E79E9A1527CE /* JustDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570FAA583DA6C97ECBE6648EFA2DDCE1 /* JustDateCollectionViewCell.swift */; };
 		F3CE270985395C836B4A36D17C5E356D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,33 +36,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		069F0005AB89FE830EEA3CA1D82AC8FF /* JustCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JustCalendar.modulemap; sourceTree = "<group>"; };
 		0FBB5E3A06366951D4439B2D23BB3962 /* Pods-SampleApplication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleApplication-Info.plist"; sourceTree = "<group>"; };
-		12329D150118A0F1C925C0513809F2E8 /* JustCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JustCalendar.debug.xcconfig; sourceTree = "<group>"; };
-		13E6B8D046A159109056C6CDE4EC9963 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "JustCalendar/JustCalendar/Business Logic/Constants.swift"; sourceTree = "<group>"; };
-		1A382D22E225E6A7E2E61D552646216D /* JustCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustCalendar-umbrella.h"; sourceTree = "<group>"; };
+		12C1E08AF2D02E2D1294DE632EF6E04A /* MonthYearCombination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthYearCombination.swift; path = JustCalendar/JustCalendar/Model/MonthYearCombination.swift; sourceTree = "<group>"; };
+		1ADB964C1FB2D5A5B919A8EC82387786 /* JustCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JustCalendar.release.xcconfig; sourceTree = "<group>"; };
+		2145DC0358DF9C58EC74DA02B4B58E6E /* CalendarBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarBuilder.swift; path = "JustCalendar/JustCalendar/Business Logic/CalendarBuilder.swift"; sourceTree = "<group>"; };
 		305FCDF0C62D8B910FEED3461A60C984 /* Pods-SampleApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApplication.release.xcconfig"; sourceTree = "<group>"; };
-		54254CFA3ACE16E26ED95F482BD1F6EB /* JustMonthNavigatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JustMonthNavigatorView.swift; path = "JustCalendar/JustCalendar/Custom Views/JustMonthNavigatorView.swift"; sourceTree = "<group>"; };
+		406CBDE06DFD868D90CC8170895C6DC8 /* JustMonthCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JustMonthCollectionViewCell.swift; path = "JustCalendar/JustCalendar/View Components/JustMonthCollectionViewCell.swift"; sourceTree = "<group>"; };
+		55E457C300FAD0DCADFE4471AC986262 /* JustCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JustCalendar-Info.plist"; sourceTree = "<group>"; };
+		570FAA583DA6C97ECBE6648EFA2DDCE1 /* JustDateCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JustDateCollectionViewCell.swift; path = "JustCalendar/JustCalendar/View Components/JustDateCollectionViewCell.swift"; sourceTree = "<group>"; };
 		592968BB8D09B7F2752703DD664B282F /* Pods-SampleApplication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleApplication.modulemap"; sourceTree = "<group>"; };
+		59B92FBE6B74C85E1B624AC332F645B4 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "JustCalendar/JustCalendar/Business Logic/Constants.swift"; sourceTree = "<group>"; };
+		64B5976BFDEC6E9DB282E3FB67CB9AE8 /* CalendarPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarPresenter.swift; path = "JustCalendar/JustCalendar/Business Logic/CalendarPresenter.swift"; sourceTree = "<group>"; };
 		6DD0355D2672BCB81DFCC63A4B78114C /* Pods-SampleApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApplication.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7931A47CAE98474F206C190AA531A4AD /* MonthYearCombination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthYearCombination.swift; path = JustCalendar/JustCalendar/Model/MonthYearCombination.swift; sourceTree = "<group>"; };
-		8ECEF5A5676E7CADA6DE8821B755AACE /* JustDateCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JustDateCollectionViewCell.swift; path = "JustCalendar/JustCalendar/Custom Views/JustDateCollectionViewCell.swift"; sourceTree = "<group>"; };
-		9AF462C4AD2977D7FDE0DE0BB4062162 /* CalendarDay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarDay.swift; path = JustCalendar/JustCalendar/Model/CalendarDay.swift; sourceTree = "<group>"; };
+		8242F9BBB6E7949FD95BEDB334C64F2B /* JustMonthNavigatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JustMonthNavigatorView.swift; path = "JustCalendar/JustCalendar/View Components/JustMonthNavigatorView.swift"; sourceTree = "<group>"; };
+		88DC2B4E669BC530039E7CA1D770249A /* JustCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustCalendar-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AA366F4BD547D5A6EEC2A06CC3AC1D51 /* JustCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JustCalendarView.swift; path = "JustCalendar/JustCalendar/Custom Views/JustCalendarView.swift"; sourceTree = "<group>"; };
-		AD4B181933E18F4E5B11678A22BBFD03 /* JustCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustCalendar-prefix.pch"; sourceTree = "<group>"; };
-		AFE0C9E884544FE0F6DAFBE5112DC6D0 /* NavigatorButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigatorButton.swift; path = "JustCalendar/JustCalendar/Custom Views/NavigatorButton.swift"; sourceTree = "<group>"; };
+		9FA2BFB7CF473658317F4D2DF3AB34A4 /* JustCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JustCalendar.debug.xcconfig; sourceTree = "<group>"; };
+		A7F030EB837CA7084222C878A849CF0B /* NavigatorButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigatorButton.swift; path = "JustCalendar/JustCalendar/View Components/NavigatorButton.swift"; sourceTree = "<group>"; };
 		B314FDA18F6EAF79D733B5FB68D4C963 /* Pods_SampleApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleApplication.framework; path = "Pods-SampleApplication.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B580D78B8D3A806ECEA122C3CBD134CE /* CalendarBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarBuilder.swift; path = "JustCalendar/JustCalendar/Business Logic/CalendarBuilder.swift"; sourceTree = "<group>"; };
-		B8AAC749C703B8F316E7D22E2E888324 /* JustMonthCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JustMonthCollectionViewCell.swift; path = "JustCalendar/JustCalendar/Custom Views/JustMonthCollectionViewCell.swift"; sourceTree = "<group>"; };
-		C9CDAE0E141E1713E601EC1394789EF7 /* JustCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JustCalendar.release.xcconfig; sourceTree = "<group>"; };
-		D1C4B32F3FBB26079DFF2854904CA4EA /* JustCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JustCalendar-Info.plist"; sourceTree = "<group>"; };
-		DB960632EB068AA8320E4045A350A261 /* JustCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JustCalendar-dummy.m"; sourceTree = "<group>"; };
+		C2A1FB025B397E138808F80A374963AE /* JustCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JustCalendar-prefix.pch"; sourceTree = "<group>"; };
+		D30FFD1F4FFF62B02F651ECD04DE9675 /* JustCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JustCalendar.modulemap; sourceTree = "<group>"; };
 		E283741F2B8DD12EB5570BFC608F474E /* JustCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JustCalendar.framework; path = JustCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CBCEA7060CDB8B74AE426E4E1B2F4C /* Pods-SampleApplication-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleApplication-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7896D92C6E080C6A4DE94AD6C3865AC /* JustCalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JustCalendarView.swift; path = "JustCalendar/JustCalendar/View Components/JustCalendarView.swift"; sourceTree = "<group>"; };
 		E7C195B83527B417B72132B6A622C208 /* Pods-SampleApplication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleApplication-umbrella.h"; sourceTree = "<group>"; };
-		EF0DE68E78D5C59D68338B90E279A3A5 /* CalendarPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarPresenter.swift; path = "JustCalendar/JustCalendar/Business Logic/CalendarPresenter.swift"; sourceTree = "<group>"; };
+		E80681216F155326B2E326B1AD7109E1 /* JustCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JustCalendar-dummy.m"; sourceTree = "<group>"; };
+		EAC32E89B27670F2071A25E3BFC3CA5F /* CalendarDay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarDay.swift; path = JustCalendar/JustCalendar/Model/CalendarDay.swift; sourceTree = "<group>"; };
 		F1426A4096D4B5F6F27D819AD82D05C4 /* Pods-SampleApplication-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApplication-frameworks.sh"; sourceTree = "<group>"; };
 		F3D1C332329968AD3F4DD894B7BF52E5 /* Pods-SampleApplication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleApplication-dummy.m"; sourceTree = "<group>"; };
 		FF973A22B4C41F3E55788CFF088C5320 /* Pods-SampleApplication-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleApplication-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -97,21 +97,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		36F989B01B01A4A72F2548434D2C6BA6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				069F0005AB89FE830EEA3CA1D82AC8FF /* JustCalendar.modulemap */,
-				DB960632EB068AA8320E4045A350A261 /* JustCalendar-dummy.m */,
-				D1C4B32F3FBB26079DFF2854904CA4EA /* JustCalendar-Info.plist */,
-				AD4B181933E18F4E5B11678A22BBFD03 /* JustCalendar-prefix.pch */,
-				1A382D22E225E6A7E2E61D552646216D /* JustCalendar-umbrella.h */,
-				12329D150118A0F1C925C0513809F2E8 /* JustCalendar.debug.xcconfig */,
-				C9CDAE0E141E1713E601EC1394789EF7 /* JustCalendar.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/JustCalendar";
-			sourceTree = "<group>";
-		};
 		5701566612747633B83B8B91EF68CCAD /* Pods-SampleApplication */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,10 +122,44 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6AF941B62317450372EC5F8197D8A665 /* JustCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				2145DC0358DF9C58EC74DA02B4B58E6E /* CalendarBuilder.swift */,
+				EAC32E89B27670F2071A25E3BFC3CA5F /* CalendarDay.swift */,
+				64B5976BFDEC6E9DB282E3FB67CB9AE8 /* CalendarPresenter.swift */,
+				59B92FBE6B74C85E1B624AC332F645B4 /* Constants.swift */,
+				E7896D92C6E080C6A4DE94AD6C3865AC /* JustCalendarView.swift */,
+				570FAA583DA6C97ECBE6648EFA2DDCE1 /* JustDateCollectionViewCell.swift */,
+				406CBDE06DFD868D90CC8170895C6DC8 /* JustMonthCollectionViewCell.swift */,
+				8242F9BBB6E7949FD95BEDB334C64F2B /* JustMonthNavigatorView.swift */,
+				12C1E08AF2D02E2D1294DE632EF6E04A /* MonthYearCombination.swift */,
+				A7F030EB837CA7084222C878A849CF0B /* NavigatorButton.swift */,
+				764598EE8B0F7FA07912AF9764FFF9C0 /* Support Files */,
+			);
+			name = JustCalendar;
+			path = JustCalendar;
+			sourceTree = "<group>";
+		};
+		764598EE8B0F7FA07912AF9764FFF9C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D30FFD1F4FFF62B02F651ECD04DE9675 /* JustCalendar.modulemap */,
+				E80681216F155326B2E326B1AD7109E1 /* JustCalendar-dummy.m */,
+				55E457C300FAD0DCADFE4471AC986262 /* JustCalendar-Info.plist */,
+				C2A1FB025B397E138808F80A374963AE /* JustCalendar-prefix.pch */,
+				88DC2B4E669BC530039E7CA1D770249A /* JustCalendar-umbrella.h */,
+				9FA2BFB7CF473658317F4D2DF3AB34A4 /* JustCalendar.debug.xcconfig */,
+				1ADB964C1FB2D5A5B919A8EC82387786 /* JustCalendar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JustCalendar";
+			sourceTree = "<group>";
+		};
 		7C7CDB7DDC657B9A078CB9D0C48E3545 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FDD574F5F9A4F9C9E7B4F01CE4EAB1E8 /* JustCalendar */,
+				6AF941B62317450372EC5F8197D8A665 /* JustCalendar */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -172,25 +191,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FDD574F5F9A4F9C9E7B4F01CE4EAB1E8 /* JustCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				B580D78B8D3A806ECEA122C3CBD134CE /* CalendarBuilder.swift */,
-				9AF462C4AD2977D7FDE0DE0BB4062162 /* CalendarDay.swift */,
-				EF0DE68E78D5C59D68338B90E279A3A5 /* CalendarPresenter.swift */,
-				13E6B8D046A159109056C6CDE4EC9963 /* Constants.swift */,
-				AA366F4BD547D5A6EEC2A06CC3AC1D51 /* JustCalendarView.swift */,
-				8ECEF5A5676E7CADA6DE8821B755AACE /* JustDateCollectionViewCell.swift */,
-				B8AAC749C703B8F316E7D22E2E888324 /* JustMonthCollectionViewCell.swift */,
-				54254CFA3ACE16E26ED95F482BD1F6EB /* JustMonthNavigatorView.swift */,
-				7931A47CAE98474F206C190AA531A4AD /* MonthYearCombination.swift */,
-				AFE0C9E884544FE0F6DAFBE5112DC6D0 /* NavigatorButton.swift */,
-				36F989B01B01A4A72F2548434D2C6BA6 /* Support Files */,
-			);
-			name = JustCalendar;
-			path = JustCalendar;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -218,7 +218,7 @@
 			buildConfigurationList = 8396D62D9E2D1F99E484C49CB87AB699 /* Build configuration list for PBXNativeTarget "JustCalendar" */;
 			buildPhases = (
 				1ADCFBC39361F3958250D31EE332418F /* Headers */,
-				60BF737D313AF8D88C44E7D9B51DE234 /* Sources */,
+				EDE378748A878A2A5C146C85AE80165E /* Sources */,
 				9CCAFD3AA97EBE9E1B747C9CFBD40CB4 /* Frameworks */,
 				0146761E0FFE6021FC44B2C02FF1CCE4 /* Resources */,
 			);
@@ -296,29 +296,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		60BF737D313AF8D88C44E7D9B51DE234 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62B544374252FD4B50675BE72CB432BE /* CalendarBuilder.swift in Sources */,
-				6C80B4A009A78AB4778D1045DD6F6E1A /* CalendarDay.swift in Sources */,
-				AE5B84A4BC3075560386E3D8D79F3A9F /* CalendarPresenter.swift in Sources */,
-				3553E009D5C58EA8BB06C0FE623350C1 /* Constants.swift in Sources */,
-				AF67E545B7EB7D86A576DD5AF7BD8F9A /* JustCalendar-dummy.m in Sources */,
-				ADD95854CB0EA9BC6C7FF8DD201C365B /* JustCalendarView.swift in Sources */,
-				9340EB08589EC97B21D23EE4CAFC7E7A /* JustDateCollectionViewCell.swift in Sources */,
-				1F6F6C58CE0BA4F7EC9820DF1E6EA1A3 /* JustMonthCollectionViewCell.swift in Sources */,
-				3EA61352E4D0884C7A1996836D7A4170 /* JustMonthNavigatorView.swift in Sources */,
-				334051D2428B890027561C3FBD4B0FC0 /* MonthYearCombination.swift in Sources */,
-				F2E26919A90EC8AB5E8CF6D07B24016F /* NavigatorButton.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C9F22ED44ADB1BD54A6D1CE5D15B5BEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84A0B2BA1DC1AE4E8250C5CEE5C0B766 /* Pods-SampleApplication-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE378748A878A2A5C146C85AE80165E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187837A96DE08026CCAFE3AB09F4D09B /* CalendarBuilder.swift in Sources */,
+				75437E2B2BD1B9401C665D6F12FBCB42 /* CalendarDay.swift in Sources */,
+				418D4B56376FF7F5FFE7B8AC49BFE7F4 /* CalendarPresenter.swift in Sources */,
+				D23A9866932FBE783427174134137CCB /* Constants.swift in Sources */,
+				04327EC2A0D68846E59130137B2DF5BD /* JustCalendar-dummy.m in Sources */,
+				9DEBFB8673A12F97CA2BECA3D30D6FB6 /* JustCalendarView.swift in Sources */,
+				D642DCB63947F38CBD17E79E9A1527CE /* JustDateCollectionViewCell.swift in Sources */,
+				2D7996B08A999F6C4A6892EF8143ED14 /* JustMonthCollectionViewCell.swift in Sources */,
+				3E2CD819367759101F00526E544A45CF /* JustMonthNavigatorView.swift in Sources */,
+				83C28AD787CFE91B80D837542EF6F61E /* MonthYearCombination.swift in Sources */,
+				C2C988CDE2B3D0DF2380486F9CD10AA8 /* NavigatorButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +411,7 @@
 		};
 		498C2F951C413F2F3C55A7E22EDD2FA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12329D150118A0F1C925C0513809F2E8 /* JustCalendar.debug.xcconfig */;
+			baseConfigurationReference = 9FA2BFB7CF473658317F4D2DF3AB34A4 /* JustCalendar.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -446,7 +446,7 @@
 		};
 		6F0AD73BC0AF9876BC48D6D240ABBC82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9CDAE0E141E1713E601EC1394789EF7 /* JustCalendar.release.xcconfig */;
+			baseConfigurationReference = 1ADB964C1FB2D5A5B919A8EC82387786 /* JustCalendar.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -13,6 +13,7 @@ class JustMonthCollectionViewCell: UICollectionViewCell {
     private let weekDays = CalendarPresenter.shared.weekDays
 
     var selectedDateItem : ((_ dateItem: CalendarDay)->Void)?
+    var selectedDate : CalendarDay?
     
     var monthDays : [CalendarDay?] = []{
         didSet{
@@ -72,6 +73,9 @@ class JustMonthCollectionViewCell: UICollectionViewCell {
         super.init(frame: frame)
         customizeCollectionView()
     }
+    deinit {
+        dateViewCollectionView.reloadData()
+    }
     
     func customizeCollectionView(){
         setMonthInMonthView()
@@ -96,18 +100,6 @@ class JustMonthCollectionViewCell: UICollectionViewCell {
         setMonthInMonthView()
     }
     
-    func isCurrentDate(_ date: CalendarDay) -> Bool {
-        if Date().date() == date.date && Date().month() == date.month && Date().year() == date.year{
-            return true
-        }
-        return false
-    }
-    func isValidDate(_ calendarDateItem: CalendarDay) -> Bool {
-        if calendarDateItem.date != nil && calendarDateItem.month != nil, calendarDateItem.year != nil && calendarDateItem.day != nil{
-            return true
-        }
-        return false
-    }
 }
 extension JustMonthCollectionViewCell : UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -131,7 +123,7 @@ extension JustMonthCollectionViewCell : UICollectionViewDelegate, UICollectionVi
             else{
                 cell.dateTitleColor = dateColor
                 if let calendarDay = self.monthDays[indexPath.row]{
-                    if self.isCurrentDate(calendarDay){
+                    if calendarBuilder.isCurrentDate(calendarDay){
                         cell.addFill(withColor: currentCellSelectionColor)
                     }
                     if let date = calendarDay.date{
@@ -149,7 +141,7 @@ extension JustMonthCollectionViewCell : UICollectionViewDelegate, UICollectionVi
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize{
         
-        let collectionViewWidth = collectionView.frame.width/7
+        let collectionViewWidth = collectionView.bounds.width/7
         return CGSize(width: collectionViewWidth, height: collectionViewWidth)
     }
     
@@ -166,18 +158,34 @@ extension JustMonthCollectionViewCell : UICollectionViewDelegate, UICollectionVi
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.section == 1{
-            if let dateItem = self.monthDays[indexPath.row], isValidDate(dateItem){
+            if let dateItem = self.monthDays[indexPath.row], calendarBuilder.isValidDate(dateItem){
+               
                 if let cell = collectionView.cellForItem(at: indexPath) as? JustDateCollectionViewCell{
-                    cell.addFill(withColor: cellSelectionColor)
+                    if selectedDate == dateItem{
+                        if calendarBuilder.isCurrentDate(dateItem){
+                            cell.removeFill()
+                            cell.addFill(withColor: currentCellSelectionColor)
+                        }
+                        else{
+                            cell.removeFill()
+                        }
+                        self.selectedDateItem?(CalendarDay())
+                        self.selectedDate = nil
+                    }
+                    else{
+                        cell.addFill(withColor: cellSelectionColor)
+                        self.selectedDateItem?(dateItem)
+                        self.selectedDate = dateItem
+                    }
                 }
-                self.selectedDateItem?(dateItem)
+                
             }
         }
     }
     func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
         if let cell = collectionView.cellForItem(at: indexPath) as? JustDateCollectionViewCell{
-            if let calendarDay = self.monthDays[indexPath.row], isValidDate(calendarDay) {
-                if isCurrentDate(calendarDay){
+            if let calendarDay = self.monthDays[indexPath.row], calendarBuilder.isValidDate(calendarDay) {
+                if calendarBuilder.isCurrentDate(calendarDay){
                     cell.removeFill()
                     cell.addFill(withColor: currentCellSelectionColor)
                 }

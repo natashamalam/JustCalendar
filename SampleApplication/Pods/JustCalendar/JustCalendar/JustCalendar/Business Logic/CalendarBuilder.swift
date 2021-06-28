@@ -71,24 +71,17 @@ class CalendarBuilder{
         let nextDate = calendarObj?.date(byAdding: component, to: date)
         return nextDate
     }
-    func getDateComponent(_ date: Date)->[String]{
-        let formatter = DateFormatter()
-        formatter.dateFormat = "E YYYY MM dd"
-        let dateString = formatter.string(from: date)
-        let components = dateString.split(separator: " ").map{ return String($0)}
-        return components
-    }
-    
-    func getMonth(from date: Date?)->Int?{
-        let formatter = DateFormatter()
-        formatter.dateFormat = "MM"
-        if let date = date{
-            guard let month = Int(formatter.string(from: date)) else{
-                return nil
-            }
-            return month
+    func isCurrentDate(_ date: CalendarDay) -> Bool {
+        if Date().date() == date.date && Date().month() == date.month && Date().year() == date.year{
+            return true
         }
-        return nil
+        return false
+    }
+    func isValidDate(_ calendarDateItem: CalendarDay) -> Bool {
+        if calendarDateItem.date != nil && calendarDateItem.month != nil, calendarDateItem.year != nil && calendarDateItem.day != nil{
+            return true
+        }
+        return false
     }
     
     func currentMonth()->Int?{
@@ -157,36 +150,9 @@ class CalendarBuilder{
         }
         return nil
     }
-    
-    func nextYear(_ date: Date)->Int?{
-        if let nextYearDate = calendarObj?.date(byAdding: .year, value: 1, to: date){
-            let formatter = DateFormatter()
-            formatter.dateFormat = "YYYY"
-            if let nextYear = Int(formatter.string(from: nextYearDate)){
-                return nextYear
-            }
-        }
-        return nil
-    }
-    func previousYear(_ date: Date)->Int?{
-        if let prevYearDate = calendarObj?.date(byAdding: .year, value: -1, to: date){
-            let formatter = DateFormatter()
-            formatter.dateFormat = "YYYY"
-            if let prevYear = Int(formatter.string(from: prevYearDate)){
-                return prevYear
-            }
-        }
-        return nil
-    }
 }
 
 extension Date{
-    func toString()->String{
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateStyle = .full
-        return dateFormatter.string(from: self)
-    }
-    
     func printAsString(){
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .full

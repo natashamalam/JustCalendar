@@ -66,8 +66,9 @@ class JustMonthNavigatorView: UIView {
     private var monthYearLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = UIFont(name: "Avenir Next", size: 25.0)
+        label.font = UIFont(name: "Avenir Next", size: 20.0)
         label.textAlignment = .center
+        label.adjustsFontSizeToFitWidth = true
         return label
     }()
     
@@ -78,10 +79,6 @@ class JustMonthNavigatorView: UIView {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         customizeNavigatorView()
-    }
-    
-    deinit {
-        NotificationCenter.default.removeObserver(self, name: Notification.Name.naviagtorButtonTapNotification, object: nil)
     }
     
     private func customizeNavigatorView(){
@@ -131,6 +128,5 @@ class JustMonthNavigatorView: UIView {
             monthYearLabel.text = presenter.getMonthDescriptor(fromMonth: month) + " \(year)"
         }
     }
-    
 }
 

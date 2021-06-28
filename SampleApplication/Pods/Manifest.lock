@@ -1,5 +1,5 @@
 PODS:
-  - JustCalendar (1.0.0.0)
+  - JustCalendar (1.0.0.1)
 
 DEPENDENCIES:
   - JustCalendar
@@ -9,7 +9,7 @@ SPEC REPOS:
     - JustCalendar
 
 SPEC CHECKSUMS:
-  JustCalendar: 07525c17b1bb2ad824c035dcaf807e18f49053fa
+  JustCalendar: 10aba4fdd84078ae6217736af9b34ac0a3265376
 
 PODFILE CHECKSUM: 1e3a0c7d764cd23c7a973e7d0961b813ed551ab3
 

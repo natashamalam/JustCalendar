@@ -25,13 +25,6 @@ class CalendarDemoViewController: UIViewController, JustCalendarViewDelegate {
 }
 
 extension CalendarDemoViewController{
-    func forwardButtonTapped(_ sender: NavigatorButton) {
-        print("Action for forward button tap")
-    }
-    
-    func backwardButtonTapped(_ sender: NavigatorButton) {
-        print("Action for backward button tap")
-    }
     
     func selectedDate(_ date: Int, month: Int, year: Int, andDay day: String) {
         print("Selected Date: \n")
