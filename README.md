@@ -8,7 +8,7 @@ What makes it so easy to use is its internal layout constraints. Users can just 
 
 # Requirements
  - *iOS 11.0*
- - *Swift 5.0*
+ - *Swift 5.4*
 
 # Installation
   - Go to the terminal and naviagte to the project directory. First create the PodFile with "pod init". 
@@ -28,8 +28,6 @@ What makes it so easy to use is its internal layout constraints. Users can just 
 ```
 #### JustCalendar Delegates: 
 
-    func forwardButtonTapped(_ sender: NavigatorButton)
-    func backwardButtonTapped(_ sender: NavigatorButton)
     func selectedDate(_ date: Int, month: Int, year: Int, andDay day:String)
 
 ##### Sample intregartion processs:
