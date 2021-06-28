@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = "JustCalendar"
-  spec.version       = "1.0.0.0"
+  spec.version       = "1.0.0.1"
   spec.summary       = "A UIKit based calendar that can be integrated anywhere, where there is a view to embed in, through code or storyboard."
 
   spec.homepage      = "https://github.com/natashamalam/JustCalendar"
