@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CalendarDay {
+struct CalendarDay: Equatable {
     var day: String?
     var date: Int?
     var month: Int?
@@ -35,5 +35,12 @@ struct CalendarDay {
         }
        
         return date
+    }
+    
+    static func == (lhs: Self, rhs: Self) -> Bool{
+        if lhs.date == rhs.date && lhs.month == rhs.month && lhs.year == rhs.year && lhs.day == rhs.day{
+            return true
+        }
+        return false
     }
 }

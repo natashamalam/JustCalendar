@@ -128,7 +128,7 @@ class CalendarPresenter{
         }
     }
 
-    public func generateCalendarDataSource(_ currentMonthAndYear: MonthYearCombination, completed: @escaping([MonthYearCombination])->Void){
+    public func generateDatasourceRelativeTo(_ currentMonthAndYear: MonthYearCombination, completed: @escaping([MonthYearCombination])->Void){
         
         insertBackwards(from: currentMonthAndYear)
         appendForward(from: currentMonthAndYear)
@@ -148,11 +148,11 @@ class CalendarPresenter{
         }
         return IndexPath(row: 0, section: 0)
     }
-    func indexPathForMonth(_ visibleMonth: Int, in dataSource: [MonthYearCombination])->IndexPath?{
+    func indexPathForMonthAndYear(in dataSource: [MonthYearCombination], forMonth month: Int, andYear year: Int)->IndexPath?{
         var count = 0
         while count < dataSource.count{
             let monthAndYear = dataSource[count]
-            if visibleMonth == monthAndYear.month{
+            if month == monthAndYear.month && year == monthAndYear.year{
                 return IndexPath(row: count, section: 0)
             }
             count = count + 1
